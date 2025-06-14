@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mustore.store.model.User;
 import com.mustore.store.repositories.UserRepository;
-
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
